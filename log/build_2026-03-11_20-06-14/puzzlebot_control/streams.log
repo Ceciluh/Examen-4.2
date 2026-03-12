@@ -1,0 +1,30 @@
+[1.976s] Invoking command in '/home/dalw/pb_ws/src/pb-j_control': PYTHONPATH=/home/dalw/pb_ws/build/puzzlebot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dalw/pb_ws/install/puzzlebot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/puzzlebot_control build --build-base /home/dalw/pb_ws/build/puzzlebot_control/build install --record /home/dalw/pb_ws/build/puzzlebot_control/install.log --single-version-externally-managed install_data
+[2.411s] running egg_info
+[2.415s] writing ../../build/puzzlebot_control/puzzlebot_control.egg-info/PKG-INFO
+[2.417s] writing dependency_links to ../../build/puzzlebot_control/puzzlebot_control.egg-info/dependency_links.txt
+[2.417s] writing entry points to ../../build/puzzlebot_control/puzzlebot_control.egg-info/entry_points.txt
+[2.418s] writing requirements to ../../build/puzzlebot_control/puzzlebot_control.egg-info/requires.txt
+[2.418s] writing top-level names to ../../build/puzzlebot_control/puzzlebot_control.egg-info/top_level.txt
+[2.421s] reading manifest file '../../build/puzzlebot_control/puzzlebot_control.egg-info/SOURCES.txt'
+[2.423s] writing manifest file '../../build/puzzlebot_control/puzzlebot_control.egg-info/SOURCES.txt'
+[2.423s] running build
+[2.424s] running build_py
+[2.425s] running install
+[2.426s] running install_lib
+[2.428s] running install_data
+[2.430s] running install_egg_info
+[2.433s] removing '/home/dalw/pb_ws/install/puzzlebot_control/lib/python3.10/site-packages/puzzlebot_control-1.0.0-py3.10.egg-info' (and everything under it)
+[2.433s] Copying ../../build/puzzlebot_control/puzzlebot_control.egg-info to /home/dalw/pb_ws/install/puzzlebot_control/lib/python3.10/site-packages/puzzlebot_control-1.0.0-py3.10.egg-info
+[2.438s] running install_scripts
+[2.469s] Installing ctc_controller script to /home/dalw/pb_ws/install/puzzlebot_control/lib/puzzlebot_control
+[2.469s] Installing dashboard script to /home/dalw/pb_ws/install/puzzlebot_control/lib/puzzlebot_control
+[2.470s] Installing ismc_controller script to /home/dalw/pb_ws/install/puzzlebot_control/lib/puzzlebot_control
+[2.470s] Installing lyapunov_benchmark script to /home/dalw/pb_ws/install/puzzlebot_control/lib/puzzlebot_control
+[2.471s] Installing ph_controller script to /home/dalw/pb_ws/install/puzzlebot_control/lib/puzzlebot_control
+[2.471s] Installing pid_controller script to /home/dalw/pb_ws/install/puzzlebot_control/lib/puzzlebot_control
+[2.471s] Installing puzzlebot_sim script to /home/dalw/pb_ws/install/puzzlebot_control/lib/puzzlebot_control
+[2.472s] Installing smc_controller script to /home/dalw/pb_ws/install/puzzlebot_control/lib/puzzlebot_control
+[2.472s] Installing teleop_keyboard script to /home/dalw/pb_ws/install/puzzlebot_control/lib/puzzlebot_control
+[2.472s] Installing terrain_perturb script to /home/dalw/pb_ws/install/puzzlebot_control/lib/puzzlebot_control
+[2.473s] writing list of installed files to '/home/dalw/pb_ws/build/puzzlebot_control/install.log'
+[2.529s] Invoked command in '/home/dalw/pb_ws/src/pb-j_control' returned '0': PYTHONPATH=/home/dalw/pb_ws/build/puzzlebot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dalw/pb_ws/install/puzzlebot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/puzzlebot_control build --build-base /home/dalw/pb_ws/build/puzzlebot_control/build install --record /home/dalw/pb_ws/build/puzzlebot_control/install.log --single-version-externally-managed install_data

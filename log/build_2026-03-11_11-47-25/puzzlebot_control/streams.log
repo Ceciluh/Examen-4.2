@@ -1,0 +1,92 @@
+[4.908s] Invoking command in '/home/dalw/pb_ws/src/pb-j_control': PYTHONPATH=/home/dalw/pb_ws/build/puzzlebot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dalw/pb_ws/install/puzzlebot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/puzzlebot_control build --build-base /home/dalw/pb_ws/build/puzzlebot_control/build install --record /home/dalw/pb_ws/build/puzzlebot_control/install.log --single-version-externally-managed install_data
+[6.497s] running egg_info
+[6.499s] creating ../../build/puzzlebot_control/puzzlebot_control.egg-info
+[6.500s] writing ../../build/puzzlebot_control/puzzlebot_control.egg-info/PKG-INFO
+[6.501s] writing dependency_links to ../../build/puzzlebot_control/puzzlebot_control.egg-info/dependency_links.txt
+[6.502s] writing entry points to ../../build/puzzlebot_control/puzzlebot_control.egg-info/entry_points.txt
+[6.502s] writing requirements to ../../build/puzzlebot_control/puzzlebot_control.egg-info/requires.txt
+[6.503s] writing top-level names to ../../build/puzzlebot_control/puzzlebot_control.egg-info/top_level.txt
+[6.503s] writing manifest file '../../build/puzzlebot_control/puzzlebot_control.egg-info/SOURCES.txt'
+[6.508s] reading manifest file '../../build/puzzlebot_control/puzzlebot_control.egg-info/SOURCES.txt'
+[6.510s] writing manifest file '../../build/puzzlebot_control/puzzlebot_control.egg-info/SOURCES.txt'
+[6.510s] running build
+[6.511s] running build_py
+[6.511s] creating /home/dalw/pb_ws/build/puzzlebot_control/build
+[6.512s] creating /home/dalw/pb_ws/build/puzzlebot_control/build/lib
+[6.513s] creating /home/dalw/pb_ws/build/puzzlebot_control/build/lib/puzzlebot_control
+[6.514s] copying puzzlebot_control/pid_controller.py -> /home/dalw/pb_ws/build/puzzlebot_control/build/lib/puzzlebot_control
+[6.515s] copying puzzlebot_control/base_controller.py -> /home/dalw/pb_ws/build/puzzlebot_control/build/lib/puzzlebot_control
+[6.515s] copying puzzlebot_control/lyapunov_benchmark.py -> /home/dalw/pb_ws/build/puzzlebot_control/build/lib/puzzlebot_control
+[6.516s] copying puzzlebot_control/puzzlebot_sim.py -> /home/dalw/pb_ws/build/puzzlebot_control/build/lib/puzzlebot_control
+[6.517s] copying puzzlebot_control/terrain_perturbation.py -> /home/dalw/pb_ws/build/puzzlebot_control/build/lib/puzzlebot_control
+[6.517s] copying puzzlebot_control/ph_controller.py -> /home/dalw/pb_ws/build/puzzlebot_control/build/lib/puzzlebot_control
+[6.518s] copying puzzlebot_control/ismc_controller.py -> /home/dalw/pb_ws/build/puzzlebot_control/build/lib/puzzlebot_control
+[6.519s] copying puzzlebot_control/teleop_keyboard.py -> /home/dalw/pb_ws/build/puzzlebot_control/build/lib/puzzlebot_control
+[6.519s] copying puzzlebot_control/dashboard.py -> /home/dalw/pb_ws/build/puzzlebot_control/build/lib/puzzlebot_control
+[6.520s] copying puzzlebot_control/ctc_controller.py -> /home/dalw/pb_ws/build/puzzlebot_control/build/lib/puzzlebot_control
+[6.520s] copying puzzlebot_control/smc_controller.py -> /home/dalw/pb_ws/build/puzzlebot_control/build/lib/puzzlebot_control
+[6.520s] copying puzzlebot_control/__init__.py -> /home/dalw/pb_ws/build/puzzlebot_control/build/lib/puzzlebot_control
+[6.521s] running install
+[6.522s] running install_lib
+[6.524s] creating /home/dalw/pb_ws/install/puzzlebot_control/lib/python3.10/site-packages/puzzlebot_control
+[6.525s] copying /home/dalw/pb_ws/build/puzzlebot_control/build/lib/puzzlebot_control/pid_controller.py -> /home/dalw/pb_ws/install/puzzlebot_control/lib/python3.10/site-packages/puzzlebot_control
+[6.526s] copying /home/dalw/pb_ws/build/puzzlebot_control/build/lib/puzzlebot_control/base_controller.py -> /home/dalw/pb_ws/install/puzzlebot_control/lib/python3.10/site-packages/puzzlebot_control
+[6.527s] copying /home/dalw/pb_ws/build/puzzlebot_control/build/lib/puzzlebot_control/lyapunov_benchmark.py -> /home/dalw/pb_ws/install/puzzlebot_control/lib/python3.10/site-packages/puzzlebot_control
+[6.527s] copying /home/dalw/pb_ws/build/puzzlebot_control/build/lib/puzzlebot_control/puzzlebot_sim.py -> /home/dalw/pb_ws/install/puzzlebot_control/lib/python3.10/site-packages/puzzlebot_control
+[6.528s] copying /home/dalw/pb_ws/build/puzzlebot_control/build/lib/puzzlebot_control/terrain_perturbation.py -> /home/dalw/pb_ws/install/puzzlebot_control/lib/python3.10/site-packages/puzzlebot_control
+[6.528s] copying /home/dalw/pb_ws/build/puzzlebot_control/build/lib/puzzlebot_control/ph_controller.py -> /home/dalw/pb_ws/install/puzzlebot_control/lib/python3.10/site-packages/puzzlebot_control
+[6.529s] copying /home/dalw/pb_ws/build/puzzlebot_control/build/lib/puzzlebot_control/ismc_controller.py -> /home/dalw/pb_ws/install/puzzlebot_control/lib/python3.10/site-packages/puzzlebot_control
+[6.530s] copying /home/dalw/pb_ws/build/puzzlebot_control/build/lib/puzzlebot_control/teleop_keyboard.py -> /home/dalw/pb_ws/install/puzzlebot_control/lib/python3.10/site-packages/puzzlebot_control
+[6.530s] copying /home/dalw/pb_ws/build/puzzlebot_control/build/lib/puzzlebot_control/dashboard.py -> /home/dalw/pb_ws/install/puzzlebot_control/lib/python3.10/site-packages/puzzlebot_control
+[6.531s] copying /home/dalw/pb_ws/build/puzzlebot_control/build/lib/puzzlebot_control/ctc_controller.py -> /home/dalw/pb_ws/install/puzzlebot_control/lib/python3.10/site-packages/puzzlebot_control
+[6.531s] copying /home/dalw/pb_ws/build/puzzlebot_control/build/lib/puzzlebot_control/smc_controller.py -> /home/dalw/pb_ws/install/puzzlebot_control/lib/python3.10/site-packages/puzzlebot_control
+[6.532s] copying /home/dalw/pb_ws/build/puzzlebot_control/build/lib/puzzlebot_control/__init__.py -> /home/dalw/pb_ws/install/puzzlebot_control/lib/python3.10/site-packages/puzzlebot_control
+[6.533s] byte-compiling /home/dalw/pb_ws/install/puzzlebot_control/lib/python3.10/site-packages/puzzlebot_control/pid_controller.py to pid_controller.cpython-310.pyc
+[6.536s] byte-compiling /home/dalw/pb_ws/install/puzzlebot_control/lib/python3.10/site-packages/puzzlebot_control/base_controller.py to base_controller.cpython-310.pyc
+[6.540s] byte-compiling /home/dalw/pb_ws/install/puzzlebot_control/lib/python3.10/site-packages/puzzlebot_control/lyapunov_benchmark.py to lyapunov_benchmark.cpython-310.pyc
+[6.548s] byte-compiling /home/dalw/pb_ws/install/puzzlebot_control/lib/python3.10/site-packages/puzzlebot_control/puzzlebot_sim.py to puzzlebot_sim.cpython-310.pyc
+[6.550s] byte-compiling /home/dalw/pb_ws/install/puzzlebot_control/lib/python3.10/site-packages/puzzlebot_control/terrain_perturbation.py to terrain_perturbation.cpython-310.pyc
+[6.552s] byte-compiling /home/dalw/pb_ws/install/puzzlebot_control/lib/python3.10/site-packages/puzzlebot_control/ph_controller.py to ph_controller.cpython-310.pyc
+[6.555s] byte-compiling /home/dalw/pb_ws/install/puzzlebot_control/lib/python3.10/site-packages/puzzlebot_control/ismc_controller.py to ismc_controller.cpython-310.pyc
+[6.556s] byte-compiling /home/dalw/pb_ws/install/puzzlebot_control/lib/python3.10/site-packages/puzzlebot_control/teleop_keyboard.py to teleop_keyboard.cpython-310.pyc
+[6.559s] byte-compiling /home/dalw/pb_ws/install/puzzlebot_control/lib/python3.10/site-packages/puzzlebot_control/dashboard.py to dashboard.cpython-310.pyc
+[6.563s] byte-compiling /home/dalw/pb_ws/install/puzzlebot_control/lib/python3.10/site-packages/puzzlebot_control/ctc_controller.py to ctc_controller.cpython-310.pyc
+[6.565s] byte-compiling /home/dalw/pb_ws/install/puzzlebot_control/lib/python3.10/site-packages/puzzlebot_control/smc_controller.py to smc_controller.cpython-310.pyc
+[6.566s] byte-compiling /home/dalw/pb_ws/install/puzzlebot_control/lib/python3.10/site-packages/puzzlebot_control/__init__.py to __init__.cpython-310.pyc
+[6.567s] running install_data
+[6.567s] creating /home/dalw/pb_ws/install/puzzlebot_control/share/ament_index
+[6.568s] creating /home/dalw/pb_ws/install/puzzlebot_control/share/ament_index/resource_index
+[6.569s] creating /home/dalw/pb_ws/install/puzzlebot_control/share/ament_index/resource_index/packages
+[6.570s] copying resource/puzzlebot_control -> /home/dalw/pb_ws/install/puzzlebot_control/share/ament_index/resource_index/packages
+[6.570s] copying package.xml -> /home/dalw/pb_ws/install/puzzlebot_control/share/puzzlebot_control
+[6.571s] creating /home/dalw/pb_ws/install/puzzlebot_control/share/puzzlebot_control/launch
+[6.571s] copying launch/sim.launch.py -> /home/dalw/pb_ws/install/puzzlebot_control/share/puzzlebot_control/launch
+[6.572s] copying launch/gazebo.launch.py -> /home/dalw/pb_ws/install/puzzlebot_control/share/puzzlebot_control/launch
+[6.573s] copying launch/benchmark.launch.py -> /home/dalw/pb_ws/install/puzzlebot_control/share/puzzlebot_control/launch
+[6.573s] copying launch/gazebo_benchmark.launch.py -> /home/dalw/pb_ws/install/puzzlebot_control/share/puzzlebot_control/launch
+[6.574s] creating /home/dalw/pb_ws/install/puzzlebot_control/share/puzzlebot_control/config
+[6.575s] copying config/params.yaml -> /home/dalw/pb_ws/install/puzzlebot_control/share/puzzlebot_control/config
+[6.576s] creating /home/dalw/pb_ws/install/puzzlebot_control/share/puzzlebot_control/urdf
+[6.576s] copying urdf/puzzlebot.urdf -> /home/dalw/pb_ws/install/puzzlebot_control/share/puzzlebot_control/urdf
+[6.577s] copying urdf/puzzlebot_gazebo.urdf.xacro -> /home/dalw/pb_ws/install/puzzlebot_control/share/puzzlebot_control/urdf
+[6.578s] creating /home/dalw/pb_ws/install/puzzlebot_control/share/puzzlebot_control/models
+[6.578s] creating /home/dalw/pb_ws/install/puzzlebot_control/share/puzzlebot_control/worlds
+[6.579s] copying worlds/terrain.world -> /home/dalw/pb_ws/install/puzzlebot_control/share/puzzlebot_control/worlds
+[6.580s] copying worlds/empty.world -> /home/dalw/pb_ws/install/puzzlebot_control/share/puzzlebot_control/worlds
+[6.580s] creating /home/dalw/pb_ws/install/puzzlebot_control/share/puzzlebot_control/rviz
+[6.581s] copying rviz/gazebo.rviz -> /home/dalw/pb_ws/install/puzzlebot_control/share/puzzlebot_control/rviz
+[6.582s] running install_egg_info
+[6.586s] Copying ../../build/puzzlebot_control/puzzlebot_control.egg-info to /home/dalw/pb_ws/install/puzzlebot_control/lib/python3.10/site-packages/puzzlebot_control-1.0.0-py3.10.egg-info
+[6.589s] running install_scripts
+[6.638s] Installing ctc_controller script to /home/dalw/pb_ws/install/puzzlebot_control/lib/puzzlebot_control
+[6.640s] Installing dashboard script to /home/dalw/pb_ws/install/puzzlebot_control/lib/puzzlebot_control
+[6.640s] Installing ismc_controller script to /home/dalw/pb_ws/install/puzzlebot_control/lib/puzzlebot_control
+[6.641s] Installing lyapunov_benchmark script to /home/dalw/pb_ws/install/puzzlebot_control/lib/puzzlebot_control
+[6.641s] Installing ph_controller script to /home/dalw/pb_ws/install/puzzlebot_control/lib/puzzlebot_control
+[6.642s] Installing pid_controller script to /home/dalw/pb_ws/install/puzzlebot_control/lib/puzzlebot_control
+[6.642s] Installing puzzlebot_sim script to /home/dalw/pb_ws/install/puzzlebot_control/lib/puzzlebot_control
+[6.642s] Installing smc_controller script to /home/dalw/pb_ws/install/puzzlebot_control/lib/puzzlebot_control
+[6.642s] Installing teleop_keyboard script to /home/dalw/pb_ws/install/puzzlebot_control/lib/puzzlebot_control
+[6.643s] Installing terrain_perturb script to /home/dalw/pb_ws/install/puzzlebot_control/lib/puzzlebot_control
+[6.643s] writing list of installed files to '/home/dalw/pb_ws/build/puzzlebot_control/install.log'
+[6.705s] Invoked command in '/home/dalw/pb_ws/src/pb-j_control' returned '0': PYTHONPATH=/home/dalw/pb_ws/build/puzzlebot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dalw/pb_ws/install/puzzlebot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/puzzlebot_control build --build-base /home/dalw/pb_ws/build/puzzlebot_control/build install --record /home/dalw/pb_ws/build/puzzlebot_control/install.log --single-version-externally-managed install_data

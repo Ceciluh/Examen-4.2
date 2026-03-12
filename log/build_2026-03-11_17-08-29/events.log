@@ -1,0 +1,143 @@
+[0.000000] (-) TimerEvent: {}
+[0.014531] (puzzlebot_control) JobQueued: {'identifier': 'puzzlebot_control', 'dependencies': OrderedDict()}
+[0.014675] (puzzlebot_control) JobStarted: {'identifier': 'puzzlebot_control'}
+[0.088070] (-) TimerEvent: {}
+[0.189835] (-) TimerEvent: {}
+[0.290465] (-) TimerEvent: {}
+[0.393906] (-) TimerEvent: {}
+[0.498512] (-) TimerEvent: {}
+[0.600669] (-) TimerEvent: {}
+[0.708670] (-) TimerEvent: {}
+[0.812023] (-) TimerEvent: {}
+[0.913893] (-) TimerEvent: {}
+[1.018303] (-) TimerEvent: {}
+[1.118707] (-) TimerEvent: {}
+[1.221676] (-) TimerEvent: {}
+[1.333521] (-) TimerEvent: {}
+[1.433954] (-) TimerEvent: {}
+[1.534650] (-) TimerEvent: {}
+[1.635747] (-) TimerEvent: {}
+[1.736307] (-) TimerEvent: {}
+[1.841456] (-) TimerEvent: {}
+[1.943741] (-) TimerEvent: {}
+[2.046388] (-) TimerEvent: {}
+[2.148358] (-) TimerEvent: {}
+[2.248916] (-) TimerEvent: {}
+[2.351706] (-) TimerEvent: {}
+[2.456956] (-) TimerEvent: {}
+[2.557589] (-) TimerEvent: {}
+[2.659452] (-) TimerEvent: {}
+[2.763181] (-) TimerEvent: {}
+[2.867613] (-) TimerEvent: {}
+[2.971887] (-) TimerEvent: {}
+[3.078312] (-) TimerEvent: {}
+[3.186235] (-) TimerEvent: {}
+[3.291001] (-) TimerEvent: {}
+[3.392939] (-) TimerEvent: {}
+[3.499926] (-) TimerEvent: {}
+[3.605955] (-) TimerEvent: {}
+[3.706554] (-) TimerEvent: {}
+[3.818721] (-) TimerEvent: {}
+[3.922638] (-) TimerEvent: {}
+[4.029338] (-) TimerEvent: {}
+[4.129730] (-) TimerEvent: {}
+[4.233405] (-) TimerEvent: {}
+[4.334182] (-) TimerEvent: {}
+[4.445952] (-) TimerEvent: {}
+[4.552281] (-) TimerEvent: {}
+[4.652664] (-) TimerEvent: {}
+[4.753190] (-) TimerEvent: {}
+[4.855727] (-) TimerEvent: {}
+[4.963205] (-) TimerEvent: {}
+[5.070450] (-) TimerEvent: {}
+[5.170828] (-) TimerEvent: {}
+[5.271258] (-) TimerEvent: {}
+[5.376868] (-) TimerEvent: {}
+[5.477311] (-) TimerEvent: {}
+[5.587595] (-) TimerEvent: {}
+[5.695183] (-) TimerEvent: {}
+[5.795910] (-) TimerEvent: {}
+[5.896441] (-) TimerEvent: {}
+[5.999727] (-) TimerEvent: {}
+[6.101166] (-) TimerEvent: {}
+[6.209897] (-) TimerEvent: {}
+[6.312625] (-) TimerEvent: {}
+[6.414852] (-) TimerEvent: {}
+[6.516250] (-) TimerEvent: {}
+[6.626815] (-) TimerEvent: {}
+[6.729195] (-) TimerEvent: {}
+[6.833721] (-) TimerEvent: {}
+[6.934556] (-) TimerEvent: {}
+[7.036785] (-) TimerEvent: {}
+[7.142462] (-) TimerEvent: {}
+[7.243900] (-) TimerEvent: {}
+[7.344834] (-) TimerEvent: {}
+[7.460001] (-) TimerEvent: {}
+[7.560650] (-) TimerEvent: {}
+[7.661358] (-) TimerEvent: {}
+[7.702599] (puzzlebot_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/puzzlebot_control', 'build', '--build-base', '/home/dalw/pb_ws/build/puzzlebot_control/build', 'install', '--record', '/home/dalw/pb_ws/build/puzzlebot_control/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/dalw/pb_ws/src/pb-j_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '', 'USER': 'dalw', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/dalw/uros_ws/install/micro_ros_agent/lib:/home/dalw/uros_ws/install/micro_ros_msgs/lib:/home/dalw/dev_ws/install/xarm_planner/lib:/home/dalw/dev_ws/install/xarm_moveit_servo/lib:/home/dalw/dev_ws/install/xarm_gazebo/lib:/home/dalw/dev_ws/install/xarm_controller/lib:/home/dalw/dev_ws/install/xarm_api/lib:/home/dalw/dev_ws/install/xarm_sdk/lib:/home/dalw/dev_ws/install/xarm_msgs/lib:/home/dalw/dev_ws/install/realsense_gazebo_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'WT_PROFILE_ID': '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}', 'HOME': '/home/dalw', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/dalw', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_CE_M': '', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', '_CONDA_ROOT': '/home/dalw/miniforge3', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/dalw/uros_ws/install:/home/dalw/dev_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'dalw', 'NAME': 'DESKTOP-KF4PDD9', 'WSL_INTEROP': '/run/WSL/1093_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/dalw/.local/bin:/opt/ros/humble/bin:/home/dalw/.local/bin:/home/dalw/miniforge3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files/PuTTY:/mnt/c/Program Files/dotnet:/mnt/c/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files (x86)/IVI Foundation/IVI/Bin:/mnt/c/Program Files/IVI Foundation/IVI/Bin:/mnt/c/Program Files/WireGuard:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/usbipd-win:/mnt/c/Users/user/miniconda3:/mnt/c/Users/user/miniconda3/Library/mingw-w64/bin:/mnt/c/Users/user/miniconda3/Library/usr/bin:/mnt/c/Users/user/miniconda3/Library/bin:/mnt/c/Users/user/miniconda3/Scripts:/mnt/c/Users/user/AppData/Local/Programs/Python/Python314/Scripts:/mnt/c/Users/user/AppData/Local/Programs/Python/Python314:/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/user/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/user/.dotnet/tools:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/user/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/user/AppData/Roaming/npm:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/Processing:/snap/bin', 'WT_SESSION': '25ed24ce-d575-42a6-b0ca-7ebad99f7a0b', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'MAMBA_ROOT_PREFIX': '/home/dalw/miniforge3', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'XML_CATALOG_FILES': 'file:///home/dalw/miniforge3/etc/xml/catalog file:///etc/xml/catalog', 'AMENT_PREFIX_PATH': '/home/dalw/uros_ws/install/micro_ros_setup:/home/dalw/uros_ws/install/micro_ros_agent:/home/dalw/uros_ws/install/micro_ros_msgs:/home/dalw/dev_ws/install/xarm_planner:/home/dalw/dev_ws/install/xarm_moveit_servo:/home/dalw/dev_ws/install/xarm_moveit_config:/home/dalw/dev_ws/install/xarm_gazebo:/home/dalw/dev_ws/install/xarm_controller:/home/dalw/dev_ws/install/d435i_xarm_setup:/home/dalw/dev_ws/install/xarm_api:/home/dalw/dev_ws/install/xarm_sdk:/home/dalw/dev_ws/install/xarm_perturbations:/home/dalw/dev_ws/install/xarm_msgs:/home/dalw/dev_ws/install/xarm_description:/home/dalw/dev_ws/install/uf_ros_lib:/home/dalw/dev_ws/install/realsense_gazebo_plugin:/home/dalw/dev_ws/install/my_lite6_scripts:/home/dalw/dev_ws/install/pymoveit2:/home/dalw/dev_ws/install/mbot_demo:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/dalw/miniforge3/bin/python', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': '', '_CONDA_EXE': '/home/dalw/miniforge3/bin/conda', 'MAMBA_EXE': '/home/dalw/miniforge3/bin/mamba', 'PWD': '/home/dalw/pb_ws/build/puzzlebot_control', 'CONDA_EXE': '/home/dalw/miniforge3/bin/conda', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/dalw/pb_ws/build/puzzlebot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dalw/pb_ws/install/puzzlebot_control/lib/python3.10/site-packages:/home/dalw/uros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/dalw/dev_ws/install/xarm_perturbations/lib/python3.10/site-packages:/home/dalw/dev_ws/install/xarm_msgs/local/lib/python3.10/dist-packages:/home/dalw/dev_ws/install/uf_ros_lib/lib/python3.10/site-packages:/home/dalw/dev_ws/build/my_lite6_scripts:/home/dalw/dev_ws/install/my_lite6_scripts/lib/python3.10/site-packages:/home/dalw/dev_ws/install/pymoveit2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'CONDA_PREFIX': '', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/dalw/uros_ws/install/micro_ros_setup:/home/dalw/uros_ws/install/micro_ros_agent:/home/dalw/uros_ws/install/micro_ros_msgs:/home/dalw/dev_ws/install/xarm_planner:/home/dalw/dev_ws/install/xarm_moveit_servo:/home/dalw/dev_ws/install/xarm_moveit_config:/home/dalw/dev_ws/install/xarm_gazebo:/home/dalw/dev_ws/install/xarm_controller:/home/dalw/dev_ws/install/d435i_xarm_setup:/home/dalw/dev_ws/install/xarm_api:/home/dalw/dev_ws/install/xarm_sdk:/home/dalw/dev_ws/install/xarm_msgs:/home/dalw/dev_ws/install/xarm_description:/home/dalw/dev_ws/install/realsense_gazebo_plugin:/home/dalw/dev_ws/install/pymoveit2:/home/dalw/dev_ws/install/mbot_demo', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[7.762266] (-) TimerEvent: {}
+[7.868128] (-) TimerEvent: {}
+[7.970557] (-) TimerEvent: {}
+[8.072396] (-) TimerEvent: {}
+[8.175017] (-) TimerEvent: {}
+[8.279410] (-) TimerEvent: {}
+[8.379771] (-) TimerEvent: {}
+[8.480203] (-) TimerEvent: {}
+[8.584830] (-) TimerEvent: {}
+[8.685339] (-) TimerEvent: {}
+[8.810790] (-) TimerEvent: {}
+[8.915542] (-) TimerEvent: {}
+[9.016895] (-) TimerEvent: {}
+[9.118890] (-) TimerEvent: {}
+[9.222643] (-) TimerEvent: {}
+[9.323886] (-) TimerEvent: {}
+[9.433039] (-) TimerEvent: {}
+[9.533568] (-) TimerEvent: {}
+[9.637752] (-) TimerEvent: {}
+[9.738160] (-) TimerEvent: {}
+[9.840162] (-) TimerEvent: {}
+[9.941355] (-) TimerEvent: {}
+[10.045993] (-) TimerEvent: {}
+[10.154209] (-) TimerEvent: {}
+[10.256796] (-) TimerEvent: {}
+[10.357332] (-) TimerEvent: {}
+[10.458510] (-) TimerEvent: {}
+[10.541358] (puzzlebot_control) StdoutLine: {'line': b'running egg_info\n'}
+[10.545427] (puzzlebot_control) StdoutLine: {'line': b'writing ../../build/puzzlebot_control/puzzlebot_control.egg-info/PKG-INFO\n'}
+[10.575134] (puzzlebot_control) StdoutLine: {'line': b'writing dependency_links to ../../build/puzzlebot_control/puzzlebot_control.egg-info/dependency_links.txt\n'}
+[10.575489] (-) TimerEvent: {}
+[10.576855] (puzzlebot_control) StdoutLine: {'line': b'writing entry points to ../../build/puzzlebot_control/puzzlebot_control.egg-info/entry_points.txt\n'}
+[10.578185] (puzzlebot_control) StdoutLine: {'line': b'writing requirements to ../../build/puzzlebot_control/puzzlebot_control.egg-info/requires.txt\n'}
+[10.584399] (puzzlebot_control) StdoutLine: {'line': b'writing top-level names to ../../build/puzzlebot_control/puzzlebot_control.egg-info/top_level.txt\n'}
+[10.587261] (puzzlebot_control) StdoutLine: {'line': b"reading manifest file '../../build/puzzlebot_control/puzzlebot_control.egg-info/SOURCES.txt'\n"}
+[10.602440] (puzzlebot_control) StdoutLine: {'line': b"writing manifest file '../../build/puzzlebot_control/puzzlebot_control.egg-info/SOURCES.txt'\n"}
+[10.602890] (puzzlebot_control) StdoutLine: {'line': b'running build\n'}
+[10.603115] (puzzlebot_control) StdoutLine: {'line': b'running build_py\n'}
+[10.605839] (puzzlebot_control) StdoutLine: {'line': b'running install\n'}
+[10.607103] (puzzlebot_control) StdoutLine: {'line': b'running install_lib\n'}
+[10.618438] (puzzlebot_control) StdoutLine: {'line': b'running install_data\n'}
+[10.621035] (puzzlebot_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.635956] (puzzlebot_control) StdoutLine: {'line': b"removing '/home/dalw/pb_ws/install/puzzlebot_control/lib/python3.10/site-packages/puzzlebot_control-1.0.0-py3.10.egg-info' (and everything under it)\n"}
+[10.648940] (puzzlebot_control) StdoutLine: {'line': b'Copying ../../build/puzzlebot_control/puzzlebot_control.egg-info to /home/dalw/pb_ws/install/puzzlebot_control/lib/python3.10/site-packages/puzzlebot_control-1.0.0-py3.10.egg-info\n'}
+[10.657297] (puzzlebot_control) StdoutLine: {'line': b'running install_scripts\n'}
+[10.675599] (-) TimerEvent: {}
+[10.776373] (-) TimerEvent: {}
+[10.817452] (puzzlebot_control) StdoutLine: {'line': b'Installing ctc_controller script to /home/dalw/pb_ws/install/puzzlebot_control/lib/puzzlebot_control\n'}
+[10.818341] (puzzlebot_control) StdoutLine: {'line': b'Installing dashboard script to /home/dalw/pb_ws/install/puzzlebot_control/lib/puzzlebot_control\n'}
+[10.819212] (puzzlebot_control) StdoutLine: {'line': b'Installing ismc_controller script to /home/dalw/pb_ws/install/puzzlebot_control/lib/puzzlebot_control\n'}
+[10.819789] (puzzlebot_control) StdoutLine: {'line': b'Installing lyapunov_benchmark script to /home/dalw/pb_ws/install/puzzlebot_control/lib/puzzlebot_control\n'}
+[10.824899] (puzzlebot_control) StdoutLine: {'line': b'Installing ph_controller script to /home/dalw/pb_ws/install/puzzlebot_control/lib/puzzlebot_control\n'}
+[10.825225] (puzzlebot_control) StdoutLine: {'line': b'Installing pid_controller script to /home/dalw/pb_ws/install/puzzlebot_control/lib/puzzlebot_control\n'}
+[10.825512] (puzzlebot_control) StdoutLine: {'line': b'Installing puzzlebot_sim script to /home/dalw/pb_ws/install/puzzlebot_control/lib/puzzlebot_control\n'}
+[10.825676] (puzzlebot_control) StdoutLine: {'line': b'Installing smc_controller script to /home/dalw/pb_ws/install/puzzlebot_control/lib/puzzlebot_control\n'}
+[10.825809] (puzzlebot_control) StdoutLine: {'line': b'Installing teleop_keyboard script to /home/dalw/pb_ws/install/puzzlebot_control/lib/puzzlebot_control\n'}
+[10.825931] (puzzlebot_control) StdoutLine: {'line': b'Installing terrain_perturb script to /home/dalw/pb_ws/install/puzzlebot_control/lib/puzzlebot_control\n'}
+[10.826194] (puzzlebot_control) StdoutLine: {'line': b"writing list of installed files to '/home/dalw/pb_ws/build/puzzlebot_control/install.log'\n"}
+[10.876711] (-) TimerEvent: {}
+[10.982361] (-) TimerEvent: {}
+[11.057590] (puzzlebot_control) CommandEnded: {'returncode': 0}
+[11.094525] (-) TimerEvent: {}
+[11.207622] (-) TimerEvent: {}
+[11.232346] (puzzlebot_control) JobEnded: {'identifier': 'puzzlebot_control', 'rc': 0}
+[11.252821] (-) EventReactorShutdown: {}

@@ -1,0 +1,12 @@
+[console_scripts]
+ctc_controller = puzzlebot_control.ctc_controller:main
+dashboard = puzzlebot_control.dashboard:main
+ismc_controller = puzzlebot_control.ismc_controller:main
+lyapunov_benchmark = puzzlebot_control.lyapunov_benchmark:main
+ph_controller = puzzlebot_control.ph_controller:main
+pid_controller = puzzlebot_control.pid_controller:main
+puzzlebot_sim = puzzlebot_control.puzzlebot_sim:main
+smc_controller = puzzlebot_control.smc_controller:main
+teleop_keyboard = puzzlebot_control.teleop_keyboard:main
+terrain_perturb = puzzlebot_control.terrain_perturbation:main
+
