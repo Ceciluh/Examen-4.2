@@ -2,7 +2,7 @@
 
 ## Hardware necesario
 - ESP32
-- 2x L298N motor driver
+- L298N motor driver
 - 2x motores DC
 - Baterías 12V
 
