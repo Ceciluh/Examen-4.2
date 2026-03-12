@@ -1,4 +1,10 @@
 # Examen 4.2
+Ana Cecilia Vázquez Yáñez A00839936
+Dante Alessandro Cortés Hernández A01255460 
+Ana Karen Moreno Acevedo A01773018
+Carlos Adriel Perez Silva	A00839986
+
+
 
 ## Hardware necesario
 - ESP32
